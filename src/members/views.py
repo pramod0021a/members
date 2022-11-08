@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect
 from django.views import generic
 from django.urls import reverse_lazy
 from members.forms import SignUpForm
+from django.contrib import messages
+from django.contrib.auth.models import User
 
 # class view for signup form
 # class UserRegistrationView(generic.CreateView):   
